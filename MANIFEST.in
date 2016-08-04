@@ -1,0 +1,5 @@
+graft src/plonetheme
+graft docs
+include *.rst *.js *.json *.html *.png *.zip
+global-exclude *.pyc .jshintignore
+include LICENSE

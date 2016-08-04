@@ -1,0 +1,42 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="plonetheme.future_imperfect">
+
+  <i18n:registerTranslations directory="locales" />
+
+  <includeDependencies package="." />
+
+  <include package=".browser" />
+
+  <plone:static
+      directory="theme"
+      type="theme"
+      name="plonetheme.future_imperfect"
+      />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="plonetheme.future_imperfect"
+      directory="profiles/default"
+      description="Installs the plonetheme.future_imperfect add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.post_install"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="plonetheme.future_imperfect (uninstall)"
+      directory="profiles/uninstall"
+      description="Uninstalls the plonetheme.future_imperfect add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.uninstall"
+      />
+
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="plonetheme.future_imperfect-hiddenprofiles" />
+
+</configure>

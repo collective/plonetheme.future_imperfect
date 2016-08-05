@@ -118,6 +118,11 @@
 		// make login button
 		$('.navbar-nav li a.pat-plone-modal').addClass('button big fit');
 		// $('#searchGadget_form').attr('id', 'searchGadget_form search');
+		$("button").each(function() {
+		    var text = $(this).text();
+		    text = text.replace("×", "X");
+		    $(this).text(text);
+		});
 
 	});
 

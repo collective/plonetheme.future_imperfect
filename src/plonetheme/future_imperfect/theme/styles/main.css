@@ -9366,6 +9366,12 @@ h2 a:focus,
 h3 a:focus {
   border-bottom: none;
 }
+#main-container > .col-xs-12.col-sm-6 {
+  padding-left: 2em;
+}
+i.link-https:after {
+  content: "" !important;
+}
 /* ==========================================================================
    PORTLETS
    ========================================================================== */
@@ -9389,6 +9395,7 @@ aside section.portlet .portletHeader {
 }
 aside section.portlet .portletHeader a {
   color: #3c3b3b;
+  border-bottom: none;
 }
 aside section.portlet .portletHeader a:hover,
 aside section.portlet .portletHeader a:focus {
@@ -9399,12 +9406,16 @@ aside section.portlet .portletContent {
   border-top: 0;
   padding: 0 5px;
 }
+aside section.portlet .portletItem {
+  font-size: 0.5em;
+}
 aside section.portlet .portletItem a {
   color: #3c3b3b;
   padding: 10px 5px 25px 5px;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 15px;
   line-height: 1.5;
+  border-bottom: none;
 }
 aside section.portlet .portletItem a:before {
   content: "/2014";
@@ -9472,9 +9483,12 @@ aside .portletRecent section.portletContent ul li a:before {
     height: 0;
   }
 }
+.configlets li {
+  padding-left: 0;
+}
 .configlets [class^="icon-"]:before,
 .configlets [class*=" icon-"]:before {
-  color: #3498db;
+  color: #2ebaae;
 }
 /* Search Portlet
    ========================================================================== */
@@ -9553,6 +9567,11 @@ aside .portletRecent section.portletContent ul li a:before {
 .label {
   color: #3c3b3b;
 }
+table.listing input[type="checkbox"] + label:before,
+table.listing input[type="radio"] + label:before {
+  top: -20px;
+  left: 10px;
+}
 /* ==========================================================================
    BUTTONS
    ========================================================================== */
@@ -9627,5 +9646,11 @@ input[type="button"]:focus {
   outline: 0;
   box-shadow: inset 0 0 0 1px #e74c3c !important;
   color: #ffffff !important;
+}
+/* ==========================================================================
+   TABS
+   ========================================================================== */
+.pat-autotoc.autotabs .autotoc-nav a {
+  margin: 0 0.3em -1px 0.3em !important;
 }
 /*# sourceMappingURL=++theme++future_imperfect/less/future_imperfect-compiled.css.map */

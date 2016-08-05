@@ -27,11 +27,10 @@ aside {
             background: @bg-body;
             padding: 5px;
             text-align: center;
-            // border-bottom: 2px solid @black;
 
             a{
                 color: @color-portlet-header;
-                // padding-bottom: 5px;
+                border-bottom: none;
 
                 &:hover,
                 &:focus{
@@ -51,12 +50,15 @@ aside {
 
         .portletItem{
 
+            font-size: 0.5em;
+
             a{
                 color: @color-portlet-link;
                 padding: 10px 5px 25px 5px;
                 font-family: @font-source;
                 font-size: 15px;
                 line-height: 1.5;
+                border-bottom: none;
 
                 &:before{
 
@@ -167,13 +169,18 @@ aside{
     }
 }
 
-// site setup icons color
+// site setup
 .configlets{
+
+    li{
+
+        padding-left: 0;
+    }
 
     [class^="icon-"]:before,
     [class*=" icon-"]:before{
 
-        color: @text-info;
+        color: @green
     }
 }
 

@@ -14,36 +14,36 @@ module.exports = function (grunt) {
                     strictMath: false,
                     sourceMap: true,
                     outputSourceFiles: true,
-                    sourceMapURL: '++theme++business_casual/less/business_casual-compiled.css.map',
-                    sourceMapFilename: 'src/plonetheme/business_casual/theme/less/business_casual-compiled.css.map',
+                    sourceMapURL: '++theme++future_imperfect/less/future_imperfect-compiled.css.map',
+                    sourceMapFilename: 'src/plonetheme/future_imperfect/theme/less/future_imperfect-compiled.css.map',
                     modifyVars: {
                         "isPlone": "false"
                     }
                 },
                 files: {
-                    'src/plonetheme/business_casual/theme/styles/main.css': 'src/plonetheme/business_casual/theme/less/main.less'
+                    'src/plonetheme/future_imperfect/theme/styles/main.css': 'src/plonetheme/future_imperfect/theme/less/main.less'
                 }
             }
         },
 
         watch: {
             scripts: {
-                files: ['src/plonetheme/business_casual/theme/scripts/**/*.js'],
+                files: ['src/plonetheme/future_imperfect/theme/scripts/**/*.js'],
                 tasks: ['jshint', 'uglify']
             },
             stylesheets: {
-              files: ['src/plonetheme/business_casual/theme/**/*.css', 'src/plonetheme/business_casual/theme/**/*.less'],
+              files: ['src/plonetheme/future_imperfect/theme/**/*.css', 'src/plonetheme/future_imperfect/theme/**/*.less'],
               tasks: ['less']
             },
             // html:{
-            //     files: ['src/plonetheme/business_casual/theme/index.html'],
+            //     files: ['src/plonetheme/future_imperfect/theme/index.html'],
             //     tasks: ['htmlmin']
             // },
         },
         browserSync: {
             html: {
                 bsFiles: {
-                    src : ['src/plonetheme/business_casual/theme/less/*.less']
+                    src : ['src/plonetheme/future_imperfect/theme/less/*.less']
                 },
                 options: {
                     watchTask: true,
@@ -55,7 +55,7 @@ module.exports = function (grunt) {
             },
             plone: {
                 bsFiles: {
-                    src : ['src/plonetheme/business_casual/theme/less/*.less']
+                    src : ['src/plonetheme/future_imperfect/theme/less/*.less']
                 },
                 options: {
                     watchTask: true,
@@ -77,7 +77,7 @@ module.exports = function (grunt) {
                 },
             },
 
-             build: ['Gruntfile.js', 'src/plonetheme/business_casual/theme/scripts/**/*.js']
+             build: ['Gruntfile.js', 'src/plonetheme/future_imperfect/theme/scripts/**/*.js']
         },
 
         uglify: {
@@ -86,7 +86,7 @@ module.exports = function (grunt) {
               },
               build: {
                 files: {
-                  'dist/theme/scripts/main.js': 'src/plonetheme/business_casual/theme/scripts/**/*.js'
+                  'dist/theme/scripts/main.js': 'src/plonetheme/future_imperfect/theme/scripts/**/*.js'
                 }
             }
         },
@@ -97,7 +97,7 @@ module.exports = function (grunt) {
               },
               build: {
                 files: {
-                  'dist/theme/styles/main.css': 'src/plonetheme/business_casual/theme/styles/main.css'
+                  'dist/theme/styles/main.css': 'src/plonetheme/future_imperfect/theme/styles/main.css'
                 }
             }
         },
@@ -109,7 +109,7 @@ module.exports = function (grunt) {
                     collapseWhitespace: true
                 },
                 files: {
-                    'dist/theme/index.html': 'src/plonetheme/business_casual/theme/index.html',
+                    'dist/theme/index.html': 'src/plonetheme/future_imperfect/theme/index.html',
                 }
             },
         },
@@ -120,13 +120,13 @@ module.exports = function (grunt) {
               {
                 expand: true,
                 flatten: true,
-                src: ['src/plonetheme/business_casual/theme/*'],
+                src: ['src/plonetheme/future_imperfect/theme/*'],
                 dest: 'dist/theme/', filter: 'isFile'
             },
 
               {
                 expand: true,
-                cwd: 'src/plonetheme/business_casual/theme/',
+                cwd: 'src/plonetheme/future_imperfect/theme/',
                 src: ['images/**', 'views/**', 'template-overrides/**'],
                 dest: 'dist/theme/'
             },
@@ -138,7 +138,7 @@ module.exports = function (grunt) {
         compress: {
           dist: {
             options: {
-              archive: 'plonetheme.business_casual.zip'
+              archive: 'plonetheme.future_imperfect.zip'
             },
             files: [
               {

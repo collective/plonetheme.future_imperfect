@@ -1,0 +1,88 @@
+/* ==========================================================================
+   BUTTONS
+   ========================================================================== */
+
+
+
+
+/* Type: Submit
+   ========================================================================== */
+
+
+button.submit-widget,
+input[type="submit"],
+input[type="button"]{
+
+    background-color: transparent;
+    padding: 0 3em;
+    font-size: 0.7em;
+    font-family: @font-raleway;
+    border-radius: 0;
+    border: 0;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-shadow: none;
+    color: @black;
+    transition: all .2s ease-out;
+    box-shadow: inset 0 0 0 1px rgba(160, 160, 160, 0.3);
+
+    &:hover,
+    &:focus{
+
+        border: 0;
+        outline: 0;
+        color: @black;
+        box-shadow: inset 0 0 0 1px @black;
+    }
+}
+
+
+.context{
+
+    background-color: @white !important;
+    border: 0 !important;
+    margin-bottom: 10px;
+    color: @black !important;
+
+    &:hover,
+    &:focus{
+        background-color: transparent !important;
+        border: 0;
+        box-shadow: inset 0 0 0 1px @button-context !important;
+        color: @button-context !important;
+    }
+}
+
+.plone-btn-primary,
+.standalone{
+
+    background-color: @white !important;
+    border: 0 !important;
+    margin-bottom: 10px;
+    color: @black !important;
+
+    &:hover,
+    &:focus{
+        background-color: transparent !important;
+        border: 0;
+        box-shadow: inset 0 0 0 1px @button-standalone !important;
+        color: @button-standalone !important;
+    }
+}
+
+.destructive{
+
+    background-color: @white !important;
+    border: 1px solid @button-destructive !important;
+    margin-bottom: 10px;
+    color: @button-destructive !important;
+
+    &:hover,
+    &:focus{
+        background-color: fadeout(@button-destructive, 20%) !important;
+        border: 0;
+        outline: 0;
+        box-shadow: inset 0 0 0 1px @button-destructive !important;
+        color: @white !important;
+    }
+}

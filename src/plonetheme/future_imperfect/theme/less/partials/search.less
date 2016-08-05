@@ -1,0 +1,128 @@
+/* ==========================================================================
+   SEARCH PAGE and LIVE SEARCH
+   ========================================================================== */
+
+
+
+
+.search-box{
+
+    #portal-searchbox{
+
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        .search-icon{
+
+            padding: 6px;
+        }
+
+        .searchSection{
+
+            color: @white;
+        }
+    }
+}
+
+/* Moblie live search
+   ========================================================================== */
+
+.mobile-live-search{
+
+
+    #portal-searchbox{
+        float: none;
+        position: absolute;
+        top: 15px;
+        right: 70px;
+        margin-top: -5px;
+        padding-top: 0;
+
+        .pat-livesearch{
+            min-width: 100px;
+        }
+    }
+
+    .LSBox{
+
+        .searchField{
+            height: 30px;
+            background: @white;
+            outline: 0;
+            border: 0;
+            box-shadow: none;
+            // border-bottom: 1px solid @brand-darker;
+            border-radius: 0;
+            font-size: 14px;
+            // color: @brand-darker;
+            width: 100px;
+            transition-property: width;
+            transition-duration: 200ms;
+            transition-timing-function: ease;
+
+            &:focus{
+                background-color: @white;
+                border-bottom: none !important;
+                width: 85vw;
+                position: absolute;
+                top: 0;
+                right: -20px;
+                margin-top: -10px;
+                padding: 26px 20px;
+            }
+        }
+
+        label{
+
+            color: @gray;
+        }
+
+
+        .livesearch-results{
+            border: 0px !important;
+            box-shadow: none !important;
+            width: 100vw !important;
+            margin-top: -1px;
+
+            li{
+                &.no-search{
+                    display: none !important;
+                }
+                text-transform: none;
+            }
+
+            h4{
+                margin-top: 0;
+
+                a{
+                    font-weight: 400;
+                    font-family: @font-opensans;
+                }
+            }
+
+            p{
+                margin: 0;
+            }
+        }
+
+        input[type="text"]:focus{
+            border: 0;
+            box-shadow: none;
+        }
+    }
+}
+
+.searchPage .actionMenu dd{
+    z-index: 2;
+}
+
+input[type="submit"].searchPage{
+    padding: 8px;
+    font-size: 17px;
+}
+
+#searchform .input-group input.searchPage.btn{
+
+    margin-top: -2px;
+}

@@ -1,0 +1,37 @@
+/* ==========================================================================
+   INPUTS
+   ========================================================================== */
+
+
+
+
+.field{
+
+    &.error{
+
+        background-color: transparent;
+        border: 0;
+        box-shadow: none;
+
+        div:not([class="formHelp"]){
+            color: @error;
+        }
+
+        label{
+            color: @error;
+        }
+
+        input{
+            background-color: fade(@error, 30%);
+
+            &:focus{
+                background-color: @white;
+            }
+        }
+    }
+}
+
+
+.label{
+    color: @black;
+}

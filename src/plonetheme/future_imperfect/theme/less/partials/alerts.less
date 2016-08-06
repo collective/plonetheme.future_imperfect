@@ -5,21 +5,27 @@
 
 
 
+#global_statusmessage{
+
+    width: 100%;
+}
+
 .portalMessage{
 
     box-shadow: none;
     text-shadow: none;
 
     &.info{
-        background-color: fadeout(@info, 10%);
-        color: @white;
+        
+        background-color: fadeout(@info, 100%);
+        color: @info;
         font-weight: 500;
-        border:0;
-        border: 2px solid @info;
-        border-radius: 10px;
+        border: 0;
+        border-radius: 0;
+        box-shadow: inset 0 0 0 1px @info;
 
         dt, strong{
-            color: @white;
+            color: @info;
         }
 
         > strong:before,
@@ -30,15 +36,16 @@
     }
 
     &.warning{
-        background-color: fadeout(@warning, 10%);
-        color: @text-warning;
+
+        background-color: fadeout(@warning, 100%);
+        color: @warning;
         font-weight: 500;
-        border:0;
-        border: 2px solid @warning;
-        border-radius: 10px;
+        border: 0;
+        border-radius: 0;
+        box-shadow: inset 0 0 0 1px @warning;
 
         dt, strong{
-            color: @text-warning;
+            color: @warning;
         }
 
         > strong:before,
@@ -49,15 +56,16 @@
     }
 
     &.error{
-        background-color: fadeout(@error, 10%);
-        color: @white;
+        
+        background-color: fadeout(@error, 100%);
+        color: @error;
         font-weight: 500;
-        border:0;
-        border: 2px solid @error;
-        border-radius: 10px;
+        border: 0;
+        border-radius: 0;
+        box-shadow: inset 0 0 0 1px @error;
 
         dt, strong{
-            color: @white;
+            color: @error;
         }
 
         > strong:before,

@@ -120,7 +120,7 @@
     </xsl:variable>
 
     <div class="{$central}">
-      <div class="row">
+      <div class="">
         <div class="box">
           <div class="col-xs-12 col-sm-12">
             <xsl:apply-templates css:select="#content" />

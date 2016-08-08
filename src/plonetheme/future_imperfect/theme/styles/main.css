@@ -9328,6 +9328,7 @@ body.is-menu-visible #menu {
    Base styling
    ========================================================================== */
 main .box {
+  width: 100%;
   background: #ffffff;
 }
 h1 {
@@ -9371,6 +9372,110 @@ h3 a:focus {
 }
 i.link-https:after {
   content: "" !important;
+}
+/* ==========================================================================
+   SEARCH PAGE and LIVE SEARCH
+   ========================================================================== */
+.SearchableText {
+  padding-right: 80px;
+}
+.searchButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 4.1125em !important;
+  padding: 0px 1em !important;
+  font-size: 0.6em !important;
+  line-height: 2em !important;
+}
+.searchSection {
+  margin-top: 5px;
+}
+.search-box #portal-searchbox {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.search-box #portal-searchbox .search-icon {
+  padding: 6px;
+}
+.search-box #portal-searchbox .searchSection {
+  color: #ffffff;
+}
+/* Moblie live search
+   ========================================================================== */
+.mobile-live-search #portal-searchbox {
+  float: none;
+  position: absolute;
+  top: 15px;
+  right: 70px;
+  margin-top: -5px;
+  padding-top: 0;
+}
+.mobile-live-search #portal-searchbox .pat-livesearch {
+  min-width: 100px;
+}
+.mobile-live-search .LSBox .searchField {
+  height: 30px;
+  background: #ffffff;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 14px;
+  width: 100px;
+  transition-property: width;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+.mobile-live-search .LSBox .searchField:focus {
+  background-color: #ffffff;
+  border-bottom: none !important;
+  width: 85vw;
+  position: absolute;
+  top: 0;
+  right: -20px;
+  margin-top: -10px;
+  padding: 26px 20px;
+}
+.mobile-live-search .LSBox label {
+  color: #646464;
+}
+.mobile-live-search .LSBox .livesearch-results {
+  border: 0px !important;
+  box-shadow: none !important;
+  width: 100vw !important;
+  margin-top: -1px;
+}
+.mobile-live-search .LSBox .livesearch-results li {
+  text-transform: none;
+}
+.mobile-live-search .LSBox .livesearch-results li.no-search {
+  display: none !important;
+}
+.mobile-live-search .LSBox .livesearch-results h4 {
+  margin-top: 0;
+}
+.mobile-live-search .LSBox .livesearch-results h4 a {
+  font-weight: 400;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+.mobile-live-search .LSBox .livesearch-results p {
+  margin: 0;
+}
+.mobile-live-search .LSBox input[type="text"]:focus {
+  border: 0;
+  box-shadow: none;
+}
+.searchPage .actionMenu dd {
+  z-index: 2;
+}
+input[type="submit"].searchPage {
+  padding: 8px;
+  font-size: 17px;
+}
+#searchform .input-group input.searchPage.btn {
+  margin-top: -2px;
 }
 /* ==========================================================================
    PORTLETS

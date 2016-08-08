@@ -68,12 +68,12 @@
     css:if-content=".section-front-page" />
 
   <!-- Portal-searchbox -->
-  <!-- <replace
+  <replace
       css:content='#searchGadget_form'
-      css:theme='#search'
-      /> -->
+      css:theme='#search-box-sidebar'
+      />
 
- <!--  <replace css:content="div#portal-searchbox input.searchButton">
+  <!-- <replace css:content="#searchGadget_form input.searchButton">
     <button class="search-icon" type="submit">
       <i class="icon-search"></i>
     </button>
@@ -120,7 +120,7 @@
     </xsl:variable>
 
     <div class="{$central}">
-      <div class="">
+      <div class="row">
         <div class="box">
           <div class="col-xs-12 col-sm-12">
             <xsl:apply-templates css:select="#content" />

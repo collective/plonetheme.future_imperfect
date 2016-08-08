@@ -32,12 +32,6 @@
 
             <nav class="main">
               <ul>
-                <li class="search">
-                  <a class="fa-search" href="#search">Search</a>
-                  <form id="search" method="get" action="#">
-                    <input type="text" name="query" placeholder="Search" />
-                  </form>
-                </li>
                 <li class="menu">
                   <a class="fa-bars" href="#menu">Menu</a>
                 </li>
@@ -46,6 +40,10 @@
           </header>
       <div id="anonymous-actions"></div>
     </div>
+        <!-- Wrapper -->
+      <div id="wrapper">
+
+      </div>
     <div id="above-content-wrapper">
       <div id="above-content">
       </div>
@@ -66,33 +64,29 @@
         </main>
     </div>
   </div>
-		<!-- Wrapper -->
-			<div id="wrapper">
 
-				
-
-				<!-- Menu -->
-					<section id="menu">
-
-						<!-- Search -->
-							<section>
-								<form class="search" method="get" action="#">
-									<input type="text" name="query" placeholder="Search" />
-								</form>
-							</section>
-
-						<!-- Links -->
-							<section>
-								<ul class="links navbar-nav">
-									
-								</ul>
-							</section>
-
-					</section>
-			</div>
 
   <!-- Footer -->
         <footer class="container" id="portal-footer-wrapper"></footer>
+
+    <!-- Menu -->
+          <section id="menu">
+
+            <!-- Search -->
+              <section>
+                <form class="search" id="search-box-sidebar" method="get" action="#">
+                  <input type="text" name="query" placeholder="Search" />
+                </form>
+              </section>
+
+            <!-- Links -->
+              <nav role="navigation">
+                <ul class="links navbar-nav">
+                  
+                </ul>
+              </nav>
+
+          </section>
 
 		<!-- Scripts -->
 			<!--[if lte IE 8]><script src="scripts/ie/respond.min.js"></script><![endif]-->

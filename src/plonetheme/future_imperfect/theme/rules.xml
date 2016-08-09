@@ -47,6 +47,11 @@
   <copy attributes="*" css:content="body" css:theme="body" />
 
   <!-- Logo -->
+  <replace
+      css:theme=".brand-logo"
+      css:content="#portal-logo"
+      />
+
   <replace css:theme=".brand-name">
     <xsl:value-of select="$site_title"/>
   </replace>

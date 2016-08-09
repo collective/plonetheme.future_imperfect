@@ -2956,7 +2956,7 @@
 		position: fixed;
 		top: 0;
 		width: 100%;
-		z-index: 10000;
+		z-index: 2;
 	}
 
 		#header a {
@@ -3137,22 +3137,22 @@
 /* Wrapper */
 
 	#wrapper {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: row-reverse;
-		-webkit-flex-direction: row-reverse;
-		-ms-flex-direction: row-reverse;
-		flex-direction: row-reverse;
-		-moz-transition: opacity 0.5s ease;
-		-webkit-transition: opacity 0.5s ease;
-		-ms-transition: opacity 0.5s ease;
-		transition: opacity 0.5s ease;
-		margin: 0 auto;
-		max-width: 100%;
-		opacity: 1;
-		padding: 4.5em;
+		// display: -moz-flex;
+		// display: -webkit-flex;
+		// display: -ms-flex;
+		// display: flex;
+		// -moz-flex-direction: row-reverse;
+		// -webkit-flex-direction: row-reverse;
+		// -ms-flex-direction: row-reverse;
+		// flex-direction: row-reverse;
+		// -moz-transition: opacity 0.5s ease;
+		// -webkit-transition: opacity 0.5s ease;
+		// -ms-transition: opacity 0.5s ease;
+		// transition: opacity 0.5s ease;
+		// margin: 0 auto;
+		// max-width: 100%;
+		// opacity: 1;
+		// padding: 4.5em;
 		width: 90em;
 	}
 

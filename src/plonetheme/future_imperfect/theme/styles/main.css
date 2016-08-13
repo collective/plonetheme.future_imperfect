@@ -7696,7 +7696,7 @@ i {
   font-style: italic;
 }
 p {
-  margin: 0 0 2em 0;
+  margin: 0 0 1em 0;
 }
 h1,
 h2,
@@ -7709,7 +7709,7 @@ h6 {
   font-weight: 800;
   letter-spacing: 0.25em;
   line-height: 1.65;
-  margin: 0 0 1em 0;
+  margin: 2em 0 0.5em 0;
   text-transform: uppercase;
 }
 h1 a,
@@ -9382,9 +9382,16 @@ i.link-https:after {
 /* ==========================================================================
    HEADER
    ========================================================================== */
+#intro {
+  text-align: center;
+  margin: 20px auto !important;
+}
 #portal-logo {
   float: none;
   border-bottom: none;
+}
+#header h1 {
+  margin: 0 0 1em 0;
 }
 /* ==========================================================================
    SEARCH PAGE and LIVE SEARCH
@@ -9414,6 +9421,15 @@ i.link-https:after {
 }
 .search-box #portal-searchbox .searchSection {
   color: #ffffff;
+}
+.livesearch-results {
+  border: 1px solid #646464 !important;
+  border-top: none !important;
+  box-shadow: none !important;
+}
+.livesearch-results h4,
+.livesearch-results p {
+  margin-bottom: 5px;
 }
 /* ==========================================================================
    PORTLETS

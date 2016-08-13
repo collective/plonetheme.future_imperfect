@@ -1507,7 +1507,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1516,7 +1516,7 @@
 		font-weight: 800;
 		letter-spacing: 0.25em;
 		line-height: 1.65;
-		margin: 0 0 1em 0;
+		margin: 2em 0 0.5em 0;
 		text-transform: uppercase;
 	}
 

@@ -3,42 +3,26 @@
    This text does not appear on pypi or github. It is a comment.
 
 ==============================================================================
-plonetheme.future_imperfect
+Future Imperfect
 ==============================================================================
 
-Tell me what your product does
+Another fine responsive site template by html5 up, customized for Plone.
 
-Features
---------
-
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
-
+.. image:: https://raw.githubusercontent.com/vikas-parashar/plonetheme.future_imperfect/master/preview.png
 
 Installation
 ------------
 
-Install plonetheme.future_imperfect by adding it to your buildout::
+Zip
+~~~~~~~~
+
+#. Download the `zip file`_
+#. Import the theme from the Diazo theme control panel.
+
+Buildout
+~~~~~~~~
+
+Install ``plonetheme.future_imperfect`` by adding it to your buildout::
 
     [buildout]
 
@@ -51,22 +35,42 @@ Install plonetheme.future_imperfect by adding it to your buildout::
 and then running ``bin/buildout``
 
 
-Contribute
-----------
+Demo
+~~~~
 
-- Issue Tracker: https://github.com/collective/plonetheme.future_imperfect/issues
-- Source Code: https://github.com/collective/plonetheme.future_imperfect
-- Documentation: https://docs.plone.org/foo/bar
+   This theme can be seen in action at the following site:
 
+-  `Future Imperfect Theme Demo`_
 
-Support
--------
+Documentation
+-------------
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+Full documentation for end users can be found `here`_
 
+Contribution
+-------------
+
+- Clone the repo.
+- Run ``bin/buildout``
+- next, install the local dependencies theme requires
+    ``$ npm install``
+- Watch For Changes & Automatically Refresh
+    ``$ grunt watch``
+- Build & Optimize(This will create a ``dist`` folder with optimized files and a zip of theme)
+    ``$ grunt dist``
 
 License
 -------
 
-The project is licensed under the GPLv2.
+MIT License
+
+Credit
+------
+
+Based on `Future Imperfect`_ Provided by `HTML5 UP`_
+
+.. _zip file: https://github.com/vikas-parashar/plonetheme.future_imperfect/blob/master/plonetheme.future_imperfect.zip?raw=true
+.. _Future Imperfect Theme Demo: http://107.170.136.197:8080/future-imperfect
+.. _Future Imperfect: https://html5up.net/future-imperfect
+.. _HTML5 UP: https://html5up.net/
+.. _here: https://github.com/vikas-parashar/plonetheme.future_imperfect/blob/master/docs/index.rst

@@ -82,11 +82,17 @@ module.exports = function (grunt) {
 
         uglify: {
               options: {
-                banner: '/*\n <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> \n*/\n'
+                banner: '/*\n <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> \n*/\n',
+                mangle: false
               },
               build: {
                 files: {
-                  'dist/theme/scripts/main.js': 'src/plonetheme/future_imperfect/theme/scripts/**/*.js'
+                  'dist/theme/scripts/main.js': [
+                    'src/plonetheme/future_imperfect/theme/scripts/ie/*.js',
+                    'src/plonetheme/future_imperfect/theme/scripts/skel.min.js',
+                    'src/plonetheme/future_imperfect/theme/scripts/util.js',
+                    'src/plonetheme/future_imperfect/theme/scripts/main.js'
+                  ]
                 }
             }
         },
@@ -127,7 +133,7 @@ module.exports = function (grunt) {
               {
                 expand: true,
                 cwd: 'src/plonetheme/future_imperfect/theme/',
-                src: ['images/**', 'views/**', 'template-overrides/**'],
+                src: ['images/**', 'views/**', 'template-overrides/**', 'fonts/**'],
                 dest: 'dist/theme/'
             },
             ],

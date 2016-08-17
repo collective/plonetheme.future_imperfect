@@ -126,7 +126,7 @@
 
 		// focus on search box when side opens
 		$('.fa-bars').click(function() {
-		     setTimeout( function() { $( '#searchGadget' ).focus() }, 500 );
+		     setTimeout( function() { $( '#searchGadget' ).focus(); }, 500 );
 		});
 
 	});

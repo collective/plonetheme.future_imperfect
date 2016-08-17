@@ -36,7 +36,7 @@ and then running ``bin/buildout``
 
 
 Demo
-~~~~
+-----
 
    This theme can be seen in action at the following site:
 

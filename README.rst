@@ -8,7 +8,7 @@ Future Imperfect
 
 Another fine responsive site template by html5 up, customized for Plone.
 
-.. image:: https://raw.githubusercontent.com/vikas-parashar/plonetheme.future_imperfect/master/preview.png
+.. image:: https://raw.githubusercontent.com/collective/plonetheme.future_imperfect/master/preview.png
 
 Installation
 ------------
@@ -33,14 +33,6 @@ Install ``plonetheme.future_imperfect`` by adding it to your buildout::
 
 
 and then running ``bin/buildout``
-
-
-Demo
------
-
-   This theme can be seen in action at the following site:
-
--  `Future Imperfect Theme Demo`_
 
 Documentation
 -------------
@@ -69,8 +61,7 @@ Credit
 
 Based on `Future Imperfect`_ Provided by `HTML5 UP`_
 
-.. _zip file: https://github.com/vikas-parashar/plonetheme.future_imperfect/blob/master/plonetheme.future_imperfect.zip?raw=true
-.. _Future Imperfect Theme Demo: http://107.170.136.197:8080/future-imperfect
+.. _zip file: https://github.com/collective/plonetheme.future_imperfect/blob/master/plonetheme.future_imperfect.zip?raw=true
 .. _Future Imperfect: https://html5up.net/future-imperfect
 .. _HTML5 UP: https://html5up.net/
-.. _here: https://github.com/vikas-parashar/plonetheme.future_imperfect/blob/master/docs/index.rst
+.. _here: https://github.com/collective/plonetheme.future_imperfect/blob/master/docs/index.rst

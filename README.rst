@@ -65,3 +65,14 @@ Based on `Future Imperfect`_ Provided by `HTML5 UP`_
 .. _Future Imperfect: https://html5up.net/future-imperfect
 .. _HTML5 UP: https://html5up.net/
 .. _here: https://github.com/collective/plonetheme.future_imperfect/blob/master/docs/index.rst
+
+Screenshots
+-----------
+
+Full size screenshot:
+
+.. image:: https://raw.githubusercontent.com/collective/plonetheme.future_imperfect/master/docs/plonetheme.future_imperfect-screenshot.jpg
+
+iPhone Plus screenshot:
+
+.. image:: https://raw.githubusercontent.com/collective/plonetheme.future_imperfect/master/docs/plonetheme.future_imperfect-screenshot-iphone-plus.jpg

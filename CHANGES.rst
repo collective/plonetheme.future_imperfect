@@ -3,7 +3,7 @@ Changelog
 
 
 1.0 (2017-01-02)
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 - add Plone 5.1 classifier, tweaks to docs, README.rst
   [tkimnguyen]

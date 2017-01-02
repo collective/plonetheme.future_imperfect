@@ -13,14 +13,15 @@ long_description = '\n\n'.join([
 
 setup(
     name='plonetheme.future_imperfect',
-    version='1.0a2.dev0',
-    description="A theme for Plone 5",
+    version='1.0',
+    description="A theme for Plone 5.x",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Plone",
         "Framework :: Plone :: 5.0",
+        "Framework :: Plone :: 5.1",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
         "Operating System :: OS Independent",
@@ -29,7 +30,7 @@ setup(
     keywords='Python Plone',
     author='Vikas Parashar',
     author_email='svnitvikas@gmail.com',
-    url='https://github.com/vikas-parashar/plonetheme.future_imperfect',
+    url='https://github.com/collective/plonetheme.future_imperfect',
     license='MIT License',
     packages=find_packages('src', exclude=['ez_setup']),
     namespace_packages=['plonetheme'],

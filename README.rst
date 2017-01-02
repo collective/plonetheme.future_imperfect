@@ -6,7 +6,7 @@
 Future Imperfect
 ==============================================================================
 
-Another fine responsive site template by html5 up, customized for Plone.
+Another fine responsive site template by html5 up, customized for Plone 5.x
 
 .. image:: https://raw.githubusercontent.com/collective/plonetheme.future_imperfect/master/preview.png
 

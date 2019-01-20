@@ -1306,7 +1306,7 @@ th {
     position: relative;
   }
   .plone-has-table:after {
-    content: "⟷";
+    content: "\27F7";
     position: fixed;
     color: #cccccc;
     margin-top: -3px;
@@ -1581,7 +1581,7 @@ fieldset[disabled] input[type="checkbox"] {
 }
 .field.error div.error:before {
   background-color: #ac493f;
-  content: "×";
+  content: "\00D7";
   font-size: 14px;
   font-weight: 400;
   margin-left: -30px;
@@ -1617,7 +1617,7 @@ fieldset[disabled] input[type="checkbox"] {
   box-shadow: none;
 }
 label .required:after {
-  content: "•";
+  content: "\2022";
   font-size: 200%;
   line-height: 0;
   position: relative;
@@ -1820,7 +1820,7 @@ label .required:after {
   margin: 10px 0;
 }
 .folder-listing > li:before {
-  content: "•";
+  content: "\2022";
   position: absolute;
   font-size: 19px;
   margin-top: -9px;
@@ -2022,7 +2022,7 @@ label .required:after {
 .alert.status.error > dt:before,
 .portalMessage.error > dt:before {
   background-color: #ac493f;
-  content: "×";
+  content: "\00D7";
 }
 .portlet .portletContent > .portalMessage {
   padding: 15px;
@@ -2188,7 +2188,7 @@ label .required:after {
   border-top: 0;
 }
 .portlet .portletContent > ul > li a:before {
-  content: "•";
+  content: "\2022";
   position: absolute;
   font-size: 25px;
   margin-top: -9px;
@@ -2251,7 +2251,7 @@ label .required:after {
   box-shadow: 0 0 0 5px #dbecfe;
 }
 .portlet.portletCalendar table .cal_has_events a:after {
-  content: "•";
+  content: "\2022";
   position: absolute;
   margin-left: 50%;
   left: -3px;
@@ -2334,7 +2334,7 @@ label .required:after {
   background: #fcfcfd;
 }
 .portletNavigationTree .portletContent > ul > li > a:hover:after {
-  content: "⟩";
+  content: "\27E9";
   position: absolute;
   right: 10px;
   font-size: 18px;
@@ -2352,7 +2352,7 @@ label .required:after {
   color: #696969;
 }
 .portletNavigationTree .portletContent .navTreeCurrentNode > a:after {
-  content: "⟩";
+  content: "\27E9";
   position: absolute;
   right: 10px;
   font-size: 18px;
@@ -2478,7 +2478,7 @@ label .required:after {
   border-top: 0;
 }
 .managedPortlet .portletContent > ul > li a:before {
-  content: "•";
+  content: "\2022";
   position: absolute;
   font-size: 25px;
   margin-top: -9px;
@@ -2541,7 +2541,7 @@ label .required:after {
   box-shadow: 0 0 0 5px #dbecfe;
 }
 .managedPortlet.portletCalendar table .cal_has_events a:after {
-  content: "•";
+  content: "\2022";
   position: absolute;
   margin-left: 50%;
   left: -3px;
@@ -2679,7 +2679,7 @@ label .required:after {
   padding-left: 40px;
 }
 #portlet-prefs ul ul li a:before {
-  content: "•";
+  content: "\2022";
   position: absolute;
   font-size: 25px;
   margin-top: -9px;
@@ -3771,7 +3771,7 @@ body.template-logged_out #content-core .portletContent > ul > li:first-child > a
 }
 body.template-login_form #content-core .portletContent > ul > li a:before,
 body.template-logged_out #content-core .portletContent > ul > li a:before {
-  content: "•";
+  content: "\2022";
   position: absolute;
   font-size: 25px;
   margin-top: -9px;
@@ -3846,7 +3846,7 @@ body.template-logged_out #content-core.portletCalendar table .cal_has_events a:h
 }
 body.template-login_form #content-core.portletCalendar table .cal_has_events a:after,
 body.template-logged_out #content-core.portletCalendar table .cal_has_events a:after {
-  content: "•";
+  content: "\2022";
   position: absolute;
   margin-left: 50%;
   left: -3px;
@@ -3945,7 +3945,7 @@ body.template-logged_out #content-core .portletFooter {
   position: relative;
 }
 #portal-sitemap ul li:before {
-  content: "•";
+  content: "\2022";
   display: inline;
   font-size: 25px;
   color: #a7daf2;
@@ -9073,9 +9073,6 @@ body {
   }
 }
 @media screen and (max-width: 736px) {
-  .plone-toolbar-left-expanded #header {
-    margin-left: -3em;
-    }
   #header {
     height: 2.75em;
     line-height: 2.75em;
@@ -9266,8 +9263,8 @@ body.single #footer {
 #menu .links > li {
   border: 0;
   border-top: dotted 1px rgba(160, 160, 160, 0.3);
-  margin: 1.5em 0 0 0;
-  padding: 1.5em 0 0 0;
+  margin: 0.5em 0 0 0;
+  padding: 0.5em 0 0 0;
 }
 #menu .links > li a {
   display: block;
@@ -9385,7 +9382,7 @@ i.link-https:after {
   text-decoration: none;
 }
 /* ==========================================================================
-   NAVABR
+   NAVBAR
    ========================================================================== */
 .plone-toolbar-left #header {
   padding-left: 60px !important;

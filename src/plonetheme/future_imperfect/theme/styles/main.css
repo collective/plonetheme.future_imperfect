@@ -9073,6 +9073,9 @@ body {
   }
 }
 @media screen and (max-width: 736px) {
+  .plone-toolbar-left-expanded #header {
+    margin-left: -3em;
+    }
   #header {
     height: 2.75em;
     line-height: 2.75em;
@@ -9263,8 +9266,8 @@ body.single #footer {
 #menu .links > li {
   border: 0;
   border-top: dotted 1px rgba(160, 160, 160, 0.3);
-  margin: 0.5em 0 0 0;
-  padding: 0.5em 0 0 0;
+  margin: 1.5em 0 0 0;
+  padding: 1.5em 0 0 0;
 }
 #menu .links > li a {
   display: block;

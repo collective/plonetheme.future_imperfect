@@ -9484,6 +9484,8 @@ aside section.portlet .portletContent {
 }
 aside section.portlet .portletItem {
   font-size: 0.5em;
+  margin-left: 2em;
+
 }
 aside section.portlet .portletItem a {
   color: #3c3b3b;

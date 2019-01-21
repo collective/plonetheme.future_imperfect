@@ -9494,7 +9494,7 @@ aside section.portlet .portletItem a {
   border-bottom: none;
 }
 aside section.portlet .portletItem a:before {
-  content: "/2014";
+  content: "\2014";
   position: absolute;
   left: 12px;
 }

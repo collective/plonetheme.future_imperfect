@@ -5,7 +5,8 @@ Changelog
 1.0.2 (unreleased)
 ~~~~~~~~~~~~~~~~~~
 
-- Nothing changed yet.
+- fix loading of Google font via https instead of http
+  [tkimnguyen]
 
 
 1.0.1 (2017-11-20)

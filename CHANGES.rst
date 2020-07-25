@@ -5,7 +5,10 @@ Changelog
 1.0.2 (unreleased)
 ~~~~~~~~~~~~~~~~~~
 
-- fix loading of Google font via https instead of http
+- Exchange Unicode with CSS. Fixes #13
+  [CaptainSifff, Florian Goth]
+
+- fix loading of Google font via https instead of http. Fixes #15
   [tkimnguyen]
 
 

@@ -5,7 +5,11 @@ Changelog
 1.0.2 (unreleased)
 ~~~~~~~~~~~~~~~~~~
 
-- Nothing changed yet.
+- Exchange Unicode with CSS. Fixes #13
+  [CaptainSifff, Florian Goth]
+
+- fix loading of Google font via https instead of http. Fixes #15
+  [tkimnguyen]
 
 
 1.0.1 (2017-11-20)

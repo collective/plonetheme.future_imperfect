@@ -11,6 +11,9 @@ Changelog
 - fix loading of Google font via https instead of http. Fixes #15
   [tkimnguyen]
 
+- fix loading of Google font via https instead of http. Fixes #15
+  [tkimnguyen]
+
 - remove code-analysis part to avoid version pin nightmare
   [tkimnguyen]
 

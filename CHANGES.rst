@@ -12,6 +12,7 @@ Changelog
 - fix loading of Google font via https instead of http. Fixes #15
 - remove code-analysis part to avoid version pin nightmare
 - fix which Travis plonetest buildout pins file to use
+- attempt to prevent installation of plone.recipe.codeanalysis
   [tkimnguyen]
 
 1.0.1 (2017-11-20)

@@ -9,9 +9,8 @@ Changelog
   [CaptainSifff, Florian Goth]
 
 - fix loading of Google font via https instead of http. Fixes #15
-  [tkimnguyen]
-
 - remove code-analysis part to avoid version pin nightmare
+- fix which Travis plonetest buildout pins file to use
   [tkimnguyen]
 
 1.0.1 (2017-11-20)
